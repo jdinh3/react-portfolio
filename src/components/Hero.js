@@ -1,10 +1,12 @@
 import React from "react";
+import Navbar from "./Navbar";
 import "./Hero.css";
 
 function Hero() {
   return (
     <div className="hero-container">
-      <img className="hero-image" src="heroimage.jpeg" alt="leaves" />
+      <video src="Clouds.mp4" autoPlay loop muted />
+      <Navbar />
     </div>
   );
 }

@@ -1,5 +1,5 @@
 nav ul li {
-    border-bottom: 3px solid rgb(190, 227, 219);
+    border-bottom: 3px solid rgb(255, 255, 255);
     margin: 6px;
     padding: 4px;
     font-size: 20px;
@@ -13,6 +13,6 @@ nav ul {
 }
 
 nav ul li a {
-    color: rgb(190, 227, 219);
+    color: rgb(255, 255, 255);
     text-decoration: none;
 }
