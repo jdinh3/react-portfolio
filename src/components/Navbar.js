@@ -17,11 +17,6 @@ function Navbar() {
           </Link>
         </li>
         <li>
-          <Link to="/contact" className="nav-item" href="#contact">
-            Contact Me
-          </Link>
-        </li>
-        <li>
           <Link to="/resume" className="nav-item" href="#resume">
             Resume
           </Link>

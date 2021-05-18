@@ -1,17 +1,19 @@
 import "./App.css";
-import Hero from "./components/Hero";
+import Header from "./components/Header";
+import Footer from "./components/Footer";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 function App() {
   return (
-    <>
+    <div>
       <Router>
-        <Hero />
+        <Header />
         <Switch>
-          <Route path="/" exact />
+          <Route path="/" />
         </Switch>
       </Router>
-    </>
+      <Footer />
+    </div>
   );
 }
 
