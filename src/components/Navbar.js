@@ -17,9 +17,9 @@ function Navbar() {
           </Link>
         </li>
         <li>
-          <Link to="/resume" className="nav-item" href="#resume">
+          <a className="nav-item" href="/Jennifer Dinh Resume 2021.pdf">
             Resume
-          </Link>
+          </a>
         </li>
       </ul>
     </nav>
