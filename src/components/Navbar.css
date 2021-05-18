@@ -1,12 +1,12 @@
 nav ul li {
-    border-bottom: 3px solid rgb(255, 255, 255);
     margin: 6px;
-    padding: 4px;
+    padding: 8px;
     font-size: 20px;
     text-decoration: none;
 }
 
 nav ul {
+    margin-right: 40px;
     list-style-type: none;
     display: flex;
     justify-content: flex-end;
@@ -15,4 +15,8 @@ nav ul {
 nav ul li a {
     color: rgb(255, 255, 255);
     text-decoration: none;
+}
+
+a:hover{
+    color: rgba(3, 18, 65, 0.432);
 }
