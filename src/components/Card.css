@@ -1,0 +1,76 @@
+.gallery-label {
+    background-color: rgb(190, 227, 219);
+    position: absolute;
+    bottom: 20px;
+    left: 0px;
+    padding: 12px;
+}
+
+.gallery-sub-text{
+    font-size: 14px;
+}
+
+.gallery-card {
+    position: relative;
+    margin: 20px;
+}
+
+.gallery-main-text {
+    margin: 0;
+    color:rgb(59, 102, 93);
+}
+
+.gallery-sub-text {
+    margin: 0;
+    color:rgb(59, 102, 93);
+}
+
+.gallery-image {
+    margin-top: 10px;
+    width: 100%;
+    height: 100%;
+}
+
+.gallery-image:hover {
+    opacity: 0.5;
+}
+
+* {
+    box-sizing: border-box;
+  }
+  
+  /* Float three columns side by side */
+  .column {
+    float: left;
+    width: 33.3%;
+    padding: 0 20px;
+  }
+  
+ 
+/* Responsive columns */
+/* Tablets */
+  @media screen and (max-width: 992px) {
+    .column {
+      width: 50%;
+      display: block;
+      margin-bottom: 20px;
+    }
+}
+
+/* Large Smartphones */
+@media screen and (max-width: 768px) {
+    .column {
+      width: 80%;
+      display: block;
+      margin-bottom: 20px;
+    }
+}
+
+/* Small Smartphones */
+  @media screen and (max-width: 576px) {
+    .column {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+    }
+}
