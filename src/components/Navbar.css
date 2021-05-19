@@ -1,11 +1,11 @@
 nav ul li {
-    margin: 6px;
     padding: 8px;
     font-size: 20px;
     text-decoration: none;
 }
 
 nav ul {
+    padding-top: 20px;
     margin-right: 40px;
     list-style-type: none;
     display: flex;
