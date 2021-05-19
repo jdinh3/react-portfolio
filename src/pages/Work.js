@@ -1,8 +1,8 @@
 import React from "react";
-import "./Work.css";
+import Project from "../components/Project";
 
 function Work() {
-  return <h1>MY PROJECTS</h1>;
+  return <Project />;
 }
 
 export default Work;

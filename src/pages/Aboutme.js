@@ -1,5 +1,4 @@
 import React from "react";
-import "./Aboutme.css";
 
 function AboutMe() {
   return (

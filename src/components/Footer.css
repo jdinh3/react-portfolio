@@ -1,7 +1,7 @@
 h3 {
     color: rgb(255, 255, 255);
     text-align: center;
-    font-size: 25px;
+    font-size: 23px;
 }
 
 h3 span {
@@ -19,7 +19,7 @@ h3 span {
 
 .footer li a {
     color: rgb(255, 255, 255);
-    font-size: 22px;
+    font-size: 20px;
     margin: 5px;
     font-weight: bold;
     padding: 15px;
