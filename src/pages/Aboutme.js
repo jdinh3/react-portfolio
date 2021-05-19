@@ -2,7 +2,11 @@ import React from "react";
 import "./Aboutme.css";
 
 function AboutMe() {
-  return <h1>Hello</h1>;
+  return (
+    <div>
+      <h1>About</h1>
+    </div>
+  );
 }
 
 export default AboutMe;

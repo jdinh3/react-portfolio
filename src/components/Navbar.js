@@ -7,7 +7,7 @@ function Navbar() {
     <nav>
       <ul>
         <li>
-          <Link to="/" className="nav-item" href="#about">
+          <Link to="/about" className="nav-item" href="#about">
             About Me
           </Link>
         </li>
