@@ -11,7 +11,7 @@ const projects = [
     repo: "https://github.com/jdinh3/employee-directory",
   },
   {
-    image: "./fitness.jpeg",
+    image: "/fitness.jpeg",
     title: "Fitness Tracker",
     subtext: "A tracker to log your workouts and exercise stats",
     deploy:
@@ -19,14 +19,14 @@ const projects = [
     repo: "https://github.com/jdinh3/fitness-tracker",
   },
   {
-    image: "./budget.png",
+    image: "/budget.png",
     title: "Budget Tracker",
     subtext: "An application to log and track your expenses",
     deploy: "https://glacial-anchorage-50677.herokuapp.com/",
     repo: "https://github.com/jdinh3/budget-tracker",
   },
   {
-    image: "./e-commerce.png",
+    image: "/e-commerce.png",
     title: "E-Commerce Backend",
     subtext: "A backend application to view and create E-Commerce data",
     deploy:
@@ -34,7 +34,7 @@ const projects = [
     repo: "https://github.com/jdinh3/E-Commerce-Back-End",
   },
   {
-    image: "./space.jpeg",
+    image: "/space.jpeg",
     title: "Space Dashboard",
     subtext:
       "A dashboard for space hobbyists to keep up with astronomical events",
@@ -42,7 +42,7 @@ const projects = [
     repo: "https://github.com/Joshwrightdev/Project-1",
   },
   {
-    image: "./planner.jpeg",
+    image: "/planner.jpeg",
     title: "Workday Scheduler",
     subtext: "A planner to schedule your workday by the hour",
     deploy: "https://jdinh3.github.io/work-day-scheduler/",

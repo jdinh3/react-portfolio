@@ -10,7 +10,7 @@ class Cards extends Component {
           <Card.Img
             className="card-image"
             variant="top"
-            src={this.props.image}
+            src={`${process.env.PUBLIC_URL}${this.props.image}`}
           />
           <Card.Body>
             <Card.Title className="card-main-text">

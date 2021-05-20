@@ -17,7 +17,10 @@ function Navbar() {
           </Link>
         </li>
         <li>
-          <a className="nav-item" href="/Jennifer Dinh Resume 2021.pdf">
+          <a
+            className="nav-item"
+            href={process.env.PUBLIC_URL + "/Resume2021.pdf"}
+          >
             Resume
           </a>
         </li>
