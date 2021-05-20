@@ -14,10 +14,10 @@ function AboutMe() {
         <div className="about-me">
           <h4 className="about-header">Hello, I'm Jennifer Dinh!</h4>
           <p>
-            I am a Full Stack Developer based in the Chicagoland area. I'm
-            currently open to new opportunities. At Georgia Tech, I have
-            collaborated with my classmates on full-stack applications where
-            reliability and communication were key components to achieving
+            A Full Stack Developer based in the Chicagoland area who is eager to
+            learn, and currently open to new opportunities. At Georgia Tech, I
+            have collaborated with my classmates on full-stack applications
+            where reliability and communication were key components to achieving
             successful applications. I enjoy working with others and using
             creativity to problem-solve while coding.
           </p>
