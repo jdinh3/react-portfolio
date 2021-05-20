@@ -42,11 +42,11 @@ const projects = [
     repo: "https://github.com/Joshwrightdev/Project-1",
   },
   {
-    image: "/planner.jpeg",
-    title: "Workday Scheduler",
-    subtext: "A planner to schedule your workday by the hour",
-    deploy: "https://jdinh3.github.io/work-day-scheduler/",
-    repo: "https://github.com/jdinh3/work-day-scheduler",
+    image: "/weather.jpeg",
+    title: "Weather Dashboard",
+    subtext: "A 5-day Weather forecast application that utilizes Weather API ",
+    deploy: "https://jdinh3.github.io/weather-dashboard/",
+    repo: "https://github.com/jdinh3/weather-dashboard",
   },
 ];
 
