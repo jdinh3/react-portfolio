@@ -8,7 +8,11 @@ function AboutMe() {
       <div className="about-container">
         <div className="my-image">
           <Col xs={6} md={4}>
-            <Image src="./my-image.jpeg" width="300" roundedCircle />
+            <Image
+              src={process.env.PUBLIC_URL + "/my-image.jpeg"}
+              width="300"
+              roundedCircle
+            />
           </Col>
         </div>
         <div className="about-me">
