@@ -15,6 +15,10 @@
   height: 185px;
 }
 
+a.image-link:hover{
+  opacity: 0.5;
+}
+
 .card-item {
   margin: 20px;
 }
@@ -36,7 +40,7 @@ a.button {
 }
 
 .btnLinks {
-  margin-left: 24px;
+  margin-left: 85px;
 }
 
  

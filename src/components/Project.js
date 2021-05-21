@@ -44,7 +44,7 @@ const projects = [
   {
     image: "/weather.jpeg",
     title: "Weather Dashboard",
-    subtext: "A 5-day Weather forecast application that utilizes Weather API ",
+    subtext: "A 5-day Weather forecast application that utilizes Weather API",
     deploy: "https://jdinh3.github.io/weather-dashboard/",
     repo: "https://github.com/jdinh3/weather-dashboard",
   },

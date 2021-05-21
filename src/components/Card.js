@@ -7,11 +7,13 @@ class Cards extends Component {
     return (
       <div>
         <Card style={{ width: "20rem" }}>
-          <Card.Img
-            className="card-image"
-            variant="top"
-            src={`${process.env.PUBLIC_URL}${this.props.image}`}
-          />
+          <a href={this.props.deploy} target="_blank" className="image-link">
+            <Card.Img
+              className="card-image"
+              variant="top"
+              src={`${process.env.PUBLIC_URL}${this.props.image}`}
+            />
+          </a>
           <Card.Body>
             <Card.Title className="card-main-text">
               {this.props.title}
@@ -20,13 +22,13 @@ class Cards extends Component {
               {this.props.subtext}
             </Card.Text>
             <div className="btnLinks">
-              <a
+              {/* <a
                 href={this.props.deploy}
                 className="button btn"
                 target="_blank"
               >
                 Deployed Site
-              </a>
+              </a> */}
               <a href={this.props.repo} className="button btn" target="_blank">
                 Github Repo
               </a>
