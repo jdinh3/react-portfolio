@@ -4,7 +4,7 @@
     align-content: center;
     text-align: center;
     color: white;
-    width: 1000px;
+    max-width: 1000px;
     margin: auto;
     padding: 50px;
     padding-left:30px;
@@ -20,4 +20,5 @@ text-align: center;
     padding: 50px;
     margin-bottom: 80px;
     margin-top: 30px;
+    font-size: calc(0.9em + 0.5vw)
 }

@@ -14,7 +14,9 @@ h3 span {
     display: flex;
     list-style-type: none;
     justify-content: center;
-    align-items: center;
+    justify-self: center;
+    align-self: center;
+    align-items: space-between;
     flex-shrink: 0;
     padding-bottom: 25px;
 }
@@ -30,6 +32,8 @@ h3 span {
     position: relative;
     bottom: 0;
     height: 2.5rem;
+    margin-left: auto;
+    margin-right:auto;
 }
 
 a:hover{
