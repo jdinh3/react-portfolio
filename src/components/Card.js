@@ -1,19 +1,21 @@
 import React, { Component } from "react";
 import { Card } from "react-bootstrap";
 import "./Card.css";
-
+import ModalApp from "./Modal";
+import Modal from "./Modal";
 class Cards extends Component {
   render() {
     return (
       <div>
         <Card style={{ width: "20rem" }}>
-          <a href={this.props.deploy} target="_blank" className="image-link">
-            <Card.Img
-              className="card-image"
-              variant="top"
-              src={`${process.env.PUBLIC_URL}${this.props.image}`}
-            />
-          </a>
+          <ModalApp
+            image={`${process.env.PUBLIC_URL}${this.props.image}`}
+            deploy={this.props.deploy}
+            repo={this.props.repo}
+            title={this.props.title}
+            description={this.props.description}
+          />
+
           <Card.Body>
             <Card.Title className="card-main-text">
               {this.props.title}
@@ -21,18 +23,6 @@ class Cards extends Component {
             <Card.Text className="card-sub-text">
               {this.props.subtext}
             </Card.Text>
-            <div className="btnLinks">
-              {/* <a
-                href={this.props.deploy}
-                className="button btn"
-                target="_blank"
-              >
-                Deployed Site
-              </a> */}
-              <a href={this.props.repo} className="button btn" target="_blank">
-                Github Repo
-              </a>
-            </div>
           </Card.Body>
         </Card>
       </div>

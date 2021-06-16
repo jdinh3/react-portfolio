@@ -19,7 +19,7 @@ function Navbar() {
         <li>
           <a
             className="nav-item"
-            href={process.env.PUBLIC_URL + "/Resume2021.pdf"}
+            href={process.env.PUBLIC_URL + "/JenniferResume2021.pdf"}
             target="_blank"
           >
             Resume

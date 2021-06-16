@@ -11,13 +11,15 @@ nav ul {
     list-style-type: none;
     display: flex;
     justify-content: flex-end;
+   
 }
 
 nav ul li a {
     color: rgb(255, 255, 255);
     text-decoration: none;
+    
 }
 
-a:hover{
-    color: rgba(3, 18, 65, 0.432);
-}
+/* li:hover{
+    color: rgb(0, 2, 7);
+} */

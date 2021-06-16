@@ -13,10 +13,12 @@
 .card-image {
   width: 318px;
   height: 185px;
+  
 }
 
-a.image-link:hover{
-  opacity: 0.5;
+a.projectBtn:hover{
+  opacity: 0.7;
+  cursor: pointer;
 }
 
 .card-item {
@@ -43,7 +45,6 @@ a.button {
   margin-left: 85px;
 }
 
- 
 /* Responsive columns */
 /* Tablets */
   @media screen and (max-width: 992px) {
