@@ -10,10 +10,11 @@ class Cards extends Component {
         <Card style={{ width: "20rem" }}>
           <ModalApp
             image={`${process.env.PUBLIC_URL}${this.props.image}`}
-            deploy={this.props.deploy}
+            site={this.props.site}
             repo={this.props.repo}
             title={this.props.title}
             description={this.props.description}
+            tutorial={this.props.tutorial}
           />
 
           <Card.Body>

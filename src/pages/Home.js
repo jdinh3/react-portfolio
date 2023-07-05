@@ -23,6 +23,7 @@ function Home() {
                 Passionate about creating great user experiences with a strong
                 understanding of accessibility standards.
               </p>
+              <p></p>
             </div>
           </Col>
         </Row>

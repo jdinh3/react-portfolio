@@ -27,12 +27,23 @@ function MyModal(props) {
         }}
       >
         <div className="btnLinks m-auto">
-          <a href={props.deploy} className="button btn" target="_blank">
-            Deployed Site
-          </a>
-          <a href={props.repo} className="button btn" target="_blank">
-            Github Repo
-          </a>
+          {props.site ? (
+            <a href={props.site} className="button btn" target="_blank">
+              Site
+            </a>
+          ) : null}
+
+          {props.tutorial ? (
+            <a href={props.tutorial} className="button btn" target="_blank">
+              Tutorial
+            </a>
+          ) : null}
+
+          {props.repo ? (
+            <a href={props.repo} className="button btn" target="_blank">
+              Repo
+            </a>
+          ) : null}
         </div>
       </Modal.Footer>
     </Modal>

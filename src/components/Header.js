@@ -6,7 +6,7 @@ function Header() {
   return (
     <div className="hero-container">
       <div className="logo-container">
-        <a href="/"><Image
+        <a href="/react-portfolio"><Image
           className="logo"
           src={process.env.PUBLIC_URL + "/signature-logo.png"}
         /></a>
