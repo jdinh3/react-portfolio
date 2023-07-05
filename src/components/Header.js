@@ -1,14 +1,18 @@
 import React from "react";
+import { Image } from "react-bootstrap";
 import Navbar from "./Navbar";
-import "./Header.css";
 
 function Header() {
   return (
     <div className="hero-container">
-      <video src={process.env.PUBLIC_URL + "/Clouds.mp4"} autoPlay loop muted />
+      <div className="logo-container">
+        <a href="/"><Image
+          className="logo"
+          src={process.env.PUBLIC_URL + "/signature-logo.png"}
+        /></a>
+      </div>
       <div className="nav-container">
         <Navbar />
-        <h1>Jennifer Dinh</h1>
       </div>
     </div>
   );
