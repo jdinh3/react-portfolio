@@ -7,8 +7,8 @@ function Navbar() {
     <nav>
       <ul>
         <li>
-          <Link to="/about" className="nav-item" href="#about">
-            About Me
+          <Link to="/" className="nav-item" href="#about">
+            Home
           </Link>
         </li>
         <li>
@@ -19,7 +19,7 @@ function Navbar() {
         <li>
           <a
             className="nav-item"
-            href={process.env.PUBLIC_URL + "/JenniferResume2021.pdf"}
+            href={process.env.PUBLIC_URL + "/JenniferResume2023.pdf"}
             target="_blank"
           >
             Resume
