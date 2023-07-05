@@ -5,9 +5,6 @@ import "./Card.css";
 function Footer() {
   return (
     <div className="footer">
-      <h3>
-        <span>Contact Me:</span>
-      </h3>
       <ul>
         <li>
           <a href="tel:224.622.7111">224.622.7111</a>

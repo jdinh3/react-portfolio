@@ -1,31 +1,19 @@
 h3 {
-    color: rgb(255, 255, 255);
     text-align: center;
 }
 
-h3 span {
-    background-color: rgba(5, 26, 90, 0.308);
-    padding: 5px;
-    font-size: 18px;
-
-}
-
 .footer ul {
-    display: flex;
     list-style-type: none;
-    justify-content: center;
-    justify-self: center;
-    align-self: center;
     align-items: space-between;
     flex-shrink: 0;
-    padding-bottom: 25px;
+    gap: 18px;
+    padding: 0 20px 25px 20px;
 }
 
 .footer li a {
-    color: rgb(255, 255, 255);
-    font-size: 16px;
+    font-size: 14px;
     font-weight: bold;
-    padding: 16px;
+    color: black;
 }
 
 .footer {
@@ -34,6 +22,14 @@ h3 span {
     height: 2.5rem;
     margin-left: auto;
     margin-right:auto;
+}
+
+@media (min-width: 768px) {
+    .footer ul {
+        display: flex;
+        justify-content: center;
+        align-self: center;
+    }
 }
 
 
