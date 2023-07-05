@@ -29,8 +29,9 @@ a.projectBtn:hover{
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  width: 94%;
   margin-left: 35px;
+  max-width: 1400px;
+  margin: 30px auto;
 }
 
 a.button {
@@ -52,9 +53,6 @@ a.button {
       width: 50%;
       display: block;
       margin-bottom: 20px;
-    }
-    .footer ul{
-      width:50%;
     }
 }
 
