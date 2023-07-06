@@ -8,30 +8,34 @@ const projects = [
     title: "Cretors",
     subtext: "Manufacturing company specializing in popcorn machines and more",
     site: "https://www.cretors.com/",
-    description: "Custom Hero Banner",
+    description:
+      "For this site, I used Postman to create and style the Hero banner as a custom widget. I added logic for users to see different pricing lists in the navigation depending on the customer group that the User is signed in under. I also added logic to display the brand intro to the category pages, and created the /memorial-promotion page which displays a promotion for three specific products.",
   },
   {
     image: "/acfcs.png",
     title: "ACFCS",
-    subtext: "Association that educates in financial crime detection and prevention",
+    subtext:
+      "Association that educates in financial crime detection and prevention",
     site: "https://www.acfcs.org/",
     description:
-      "Worked on Navigation, slider, card styles, created main pages, article pages, and created custom elements in Shogun",
+      "For this site, I made updates to the Navigation logic, created and styled the review slider, created the icon cards as Shogun Custom Elements, and created the article pages through Shogun.",
   },
   {
     image: "/cerifi.png",
     title: "CeriFi",
     subtext: "Market Leader in financial services education and training",
     site: "https://cerifi.com/",
-    description: "Created homepage and all main pages according to designs",
+    description:
+      "For this site, I created and styled the homepage and all main pages according to designs provided by the client.",
   },
   {
     image: "/nordisco.png",
     title: "Nordisco",
-    subtext: "Shop Office Supplies, Office Furniture, Printer supplies, and more",
+    subtext:
+      "Shop Office Supplies, Office Furniture, Printer supplies, and more",
     site: "https://www.nordisco.com/",
     description:
-      "fixed the product slider to be responsive, styled the search images, fixed all Accessibility issues after running through SiteImprove testing, and debugged post-launch issues",
+      "For this site, I fixed the product page image slider to be responsive, I restyled the Hawksearch thumbnail images, fixed all Accessibility issues after running it through SiteImprove, made updates to the mobile product pages, and debugged post-launch issues.",
   },
   {
     image: "/marley.png",
@@ -39,21 +43,24 @@ const projects = [
     subtext: "Shop Eco-Conscious and Sustainable tech accessories",
     site: "https://www.thehouseofmarley.com/",
     description:
-      "Created the homepage and product page in Shogun by creating custom elements",
+      "For this site, I created the homepage and product pages in Shogun by creating custom elements according to the client's designs.",
   },
   {
     image: "/regent.png",
     title: "Regent",
-    subtext: "Leading wholesale supplier of dollar store items & general merchandise",
+    subtext:
+      "Leading wholesale supplier of dollar store items & general merchandise",
     site: "https://regentproducts.com/",
-    description: "Added custom quantity functionality for specific products",
+    description:
+      "For this site, I added a custom quantity functionality for products that have a specific custom field. This logic was added to both the product page and the checkout - it allows users to only be able to increase and decrease the quantity of the item by the multiplier provided in the custom field. If the item has this custom field, I also added logic to display a banner in the product page and checkout for each item stating that the item must be ordered in multiples of the Case Quantity. For the items that can only be ordered in the specific multiplier. I also added an additional button to the checkout page that allows the user to add all available quantity to the cart.",
   },
   {
     image: "/sabre.jpeg",
     title: "Sabre",
-    subtext: "Self defense products from the #1 personal safety company in the world",
+    subtext:
+      "Self defense products from the #1 personal safety company in the world",
     site: "https://www.sabrered.com/",
-    description: "Styled the product cards and product pages",
+    description: "For this site, I styled the product cards and product pages according to the client's designs.",
   },
   {
     image: "/badgley.png",
@@ -61,7 +68,7 @@ const projects = [
     subtext: "Shop Designer Clothes, Shoes, & Bridal Fashion",
     site: "https://www.badgleymischka.com/",
     description:
-      "Updates to custom navigation logic, brand logos, and bridal pages",
+      "For this site, I updated the navigation logic to show a more custom navigation list, added brand logos to the category product pages, made style updates to the bridal pages, made the homepage more responsive in mobile views, and created coupon codes.",
   },
   {
     image: "/employee-directory.png",
